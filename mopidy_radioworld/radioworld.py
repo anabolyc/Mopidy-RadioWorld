@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 class RadioWorld(object):
 
     def __init__(self):
-        self._base_uri = 'https://radioworld.live/%s'
+        self._base_uri = 'https://radioworld-api-prod.azurewebsites.net/%s'
         #self._base_uri = 'http://localhost:5000/%s'
         self._session = requests.Session()
 
